@@ -1,0 +1,158 @@
+body {
+	background-color: #FAFAFA;
+	color: #1E1E1E;
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	text-align: center;
+}
+
+h1 {
+	color: #319EA1;
+	font-family: Roboto, sans-serif;
+	font-size: 42px;
+	letter-spacing: 5px;
+	text-transform: uppercase; 
+}
+
+h2 {
+	color: #FF945A;
+	font-family: Roboto, sans-serif;
+}
+
+p {
+	color: #1E1E1E;
+	font-family: Roboto, sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+}
+
+
+a {
+	color: #8ABCB9;
+	font-family: Roboto, sans-serif;
+	font-weight: bold;
+	transition: 1.25s;
+}
+
+a:hover {
+	color: #FDC975;
+}
+
+
+
+
+
+/* design adjustments with id */
+
+#user {
+	width: 300px;
+	border-radius: 50%;
+	border: 3px solid white;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.4);
+}
+
+#background {
+	background-image: url(images/fond.png);
+	padding: 10px;
+	margin: -10px;
+	border-radius: 0px;
+}
+
+#background p {
+	margin-bottom: 30px;
+}
+
+
+
+/* custom design with class*/
+
+.container {
+	width : 1200px;
+	margin: 20px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.btn-orange {
+	color: white;
+	text-decoration: none;
+	background-color: #319EA1;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-orange:hover {
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+	transition: 1.20s; 
+}
+
+.list-blue {
+	font-weight: bold;
+	text-align: center;
+	list-style: none;
+	margin-left: 0px;
+	padding-left: 0px;
+	font-size: 16px;
+	color: #319EA1;
+}
+
+.list-grey {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.social-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.social-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.social-inline i {
+	font-size: 25px;
+}
+
+.text-center {
+	font-style: italic;
+	color: grey;
+}
+
+.box-white {
+	background-color: white;
+	border-radius: 4px;
+	padding: 10px;
+	margin: 30px;
+	margin-left: 200px;
+	margin-right: 200px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.h2-orange {
+	color: #FF945A;
+	font-family: Roboto, sans-serif;
+	font-size : 22px;
+	letter-spacing: 2px;
+	text-transform: lowercase;
+}
+
+.text-white {
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+}
