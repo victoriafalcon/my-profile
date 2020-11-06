@@ -68,7 +68,7 @@ a:hover {
 /* custom design with class*/
 
 .container {
-	width : 1200px;
+	width : 100%;
 	margin: 20px auto;
 }
 
